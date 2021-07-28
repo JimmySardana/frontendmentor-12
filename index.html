@@ -16,22 +16,38 @@
   
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d50c617c59.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
+  <main>
+    <div class="container">
+      <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+      <h1>We are launching <span>soon!</span></h1>
+      <h2>Subscribe and get notified</h2>
+      <form action="" novalidate id="form">
+        <input type="email" name="" id="email" placeholder="Your email address..." required>
+        <div id="error" class="error hide">Please provide a valid email address</div>
+        <button type="submit">Notify Me</button>
+      </form>
+      <div class="img-container">
+        <img src="./images/illustration-dashboard.png" alt="dashboard">
+      </div>
+      <div class="socials">
+        <div class="icon"><i class="fab fa-facebook-f"></i></div>
+        <div class="icon"><i class="fab fa-twitter"></i></div>
+        <div class="icon"><i class="fab fa-instagram"></i></div>
+      </div> 
+      <div class="copyright">&copy; Copyright Ping. All rights reserved.</div>
+    </div>
+  </main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/JimmySardana">Jimmy Sardana</a>.
     </p>
   </footer>
 </body>
